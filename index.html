@@ -110,9 +110,9 @@
     <!-- 登入畫面 -->
     <div id="login-screen" class="block-3d">
         <h1>TETRIS SYNC<br>ARENA</h1>
-        <!-- 預設填入值防呆，保證瞬間登入 -->
-        <input type="text" id="playerName" class="login-input" value="CHIAYU" maxlength="10">
-        <input type="text" id="roomCode" class="login-input" value="NTU-BICD" maxlength="15">
+        <!-- 改為空白輸入框，讓使用者自行輸入 -->
+        <input type="text" id="playerName" class="login-input" placeholder="YOUR NAME" maxlength="10">
+        <input type="text" id="roomCode" class="login-input" placeholder="ROOM CODE" maxlength="15">
         <button class="btn btn-start block-3d" onclick="joinRoom()">JOIN ROOM</button>
         <p style="font-size: 8px; color: #666; line-height: 1.6;">
             * 跨分頁展示技術：<br>請在電腦上左右開啟兩個視窗<br>輸入相同房號即可看見即時同步效果！
